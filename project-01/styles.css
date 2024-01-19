@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FF9900;
+  --text-color: #7D7987;
+  --line-color: #ECEFF2;
+  --title-color: #000000;
+  --white-color: #FFFFFF;
+}
+
+html {
+  /* 1rem equivale a 10px*/
+  font-size: 62.5%;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  color: var(--text-color);
+
+  text-align: center;
+}
+
+
+#hero {
+  width: 59.2rem;
+  margin: 0 auto 7.2rem;
+}
+
+#hero img {
+  margin-bottom: 7.2rem;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: normal;  
+  color: var(--title-color);
+  margin: 3.2rem auto;
+}
+
+h1 span {
+  font-weight: bold;
+
+}
+
+span, a {
+ color: var(--primary-color);
+}
+
+p, footer {
+ font-size: 1.4rem;
+ line-height: 2.8rem;
+}
+
+footer a + a {
+  margin-left: 2.8rem;
+}
+
+footer .line {
+  width: 56.8rem;
+  height: 0;
+
+  margin: 0 auto 0.8rem;
+
+  border: 1px solid var(--line-color);
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #EE24FF;
+  --text-color: #828282;
+  --title-color: #3F3D56;
+  --background-color: #ECEFF2;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  height: 100% - 104px;
+}
+
+main {
+  width: 626px;
+  margin: 64px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  margin: 0 auto 32px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+  
+  color: var(--title-color);
+  
+  margin-bottom: 16px;
+}
+
+h1 strong {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--title-color);
+}
+
+h1 span {
+  color: var(--primary-color);
+}
+
+p {
+  width: 540px;
+  line-height: 22px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 176px;
+}
+
+footer .line {
+  margin-bottom: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+footer a + a{
+  margin-left: 42px;
+}
+
+footer::after {
+  content:'';
+  display: block;
+  background: url(./assests/Wave.png) no-repeat center;
+  height: 104px;
+  width: 100%;
+
+  margin-top: 40px;
+}
+
