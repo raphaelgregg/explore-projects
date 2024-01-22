@@ -56,16 +56,17 @@ h1 {
 h1 + p {
   color: var(--text-dark-gray-color);
   line-height: 3.2rem;
-  
+
   margin-bottom: 3.2rem;
 }
 
 a {
   color: var(--text-dark-color);
+  text-decoration: none;
 }
 
 a:hover, a:focus {
- color: #1a03a0;
+ color: var(--text-dark-accent-color);
 }
 
 ul {
