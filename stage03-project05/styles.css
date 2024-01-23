@@ -1,0 +1,76 @@
+body {
+  background-color: mediumpurple;
+  border: 1px solid red;
+}
+
+.square {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  opacity: .6;
+}
+
+.square + .square {
+  margin-top: 16px;
+}
+
+.animacao01 {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.animacao02 {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.animacao03 {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.animacao04 {
+  /* animation-name: move, blink;
+  animation-duration: 1s, 200ms;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: .4s;
+  animation-timing-function: steps(10); */
+
+  animation: move 1s forwards alternate infinite, blink 100ms infinite;
+}
+
+.animation04:hover {
+  animation-play-state: paused;
+}
+
+@keyframes move {
+  /* from */
+  0% {
+  }
+  
+  /* to */
+  100% {
+    transform: translateX(calc(100vw - 100% - 16px));
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: .1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

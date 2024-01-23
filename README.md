@@ -58,4 +58,33 @@ e cada um deles irá observar ou o
 - grid-auto-columns
 
 ---
-### Grid ou Flex
+### Animation 01 - project05
+
+- [ ] Faça o quadrado ir de um lado para o outro na página. fazer ele ficar parado no ponto oposto ao início.
+
+- início e fim: 0% 100%, from to
+- linha do tempo
+-  `@keyframes` nomedaanimação
+
+- 1. animation-name
+- 2. animation-duration
+- 2. animation-fill-mode
+
+### Animation 02 - project05
+
+- [ ] Reverta a animação
+- [ ] Faça o quadrado ir e voltar ao ponto inicial
+- [ ] Fazer o quadrado animar sem fim
+
+-
+
+### Animation 03 - project05
+- [ ] Faça a animação esperar 2s para inicial
+- [ ] Teste outras funcionalidades de tempo
+
+- fazer a animação começar depois de x tempo
+- cubic-bezier(x1, y1, x2, y2)
+- ease / ease-in / ease-out / ease-in-out / linear / step
+
+- 6. animation-delay
+- 7. animation-timing-function
