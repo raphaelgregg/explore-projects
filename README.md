@@ -1,7 +1,9 @@
+# Web
+
 Todo grid é composto de 2 principais grupos:
 `container: o pai` e `itens: o(s) filhos`
 
----
+
 ### CONTAINER (pai)
 
 - display: grid;
@@ -13,7 +15,8 @@ Todo grid é composto de 2 principais grupos:
   - gap-rows
   - gap-columns
 
----
+<br />
+
 ### ITENS (filhos)
 
 - grid-column;
@@ -24,7 +27,8 @@ Todo grid é composto de 2 principais grupos:
   - grid-row-end;
 - grid-areas
 
----
+<br />
+
 ### PROPRIEDADES DE ALINHAMENTO
 
 Existem 9 propriedades fundamentais
@@ -51,24 +55,29 @@ e cada um deles irá observar ou o
 - itens do elemento `items`
 - o proprio elemento `self`
 
----
+<br />
+
 ### PROPRIEDADES AUTO
 - grid-auto-flow
 - grid-auto-rows
 - grid-auto-columns
 
----
+<br />
+
 ### Animation 01 - project05
 
 - [ ] Faça o quadrado ir de um lado para o outro na página. fazer ele ficar parado no ponto oposto ao início.
 
+<br />
+
 - início e fim: 0% 100%, from to
 - linha do tempo
 -  `@keyframes` nomedaanimação
-
 - 1. animation-name
 - 2. animation-duration
 - 2. animation-fill-mode
+
+<br />
 
 ### Animation 02 - project05
 
@@ -76,7 +85,7 @@ e cada um deles irá observar ou o
 - [ ] Faça o quadrado ir e voltar ao ponto inicial
 - [ ] Fazer o quadrado animar sem fim
 
--
+<br />
 
 ### Animation 03 - project05
 - [ ] Faça a animação esperar 2s para inicial
@@ -88,3 +97,105 @@ e cada um deles irá observar ou o
 
 - 6. animation-delay
 - 7. animation-timing-function
+
+<br />
+
+# JavaScript
+### Class 01 - Algoritimos e Logica de Programação - Perguntando nome e mostrando mensagem
+
+Como resolver problemas na linguagem de programação;
+
+Como melhorar minha lógica de programação;
+
+Identifique o que já sabe e faça!
+Quebre o grande problema em problemas menores!
+Executar funções
+Variáveis
+Concatenação
+Tipo de dado: string
+Básica de sintaxe
+
+### Class 02 - Boas práticas na escrita de variáveis - Somar dois números
+
+Em inglês
+- Sem espaços ou acentuações especiais no nome
+- Não pode iniciar com número
+- Utilizar camelCase
+- ponto e vírgula servem para finalizar uma expressão de código (facultativo)
+
+<br />
+
+- Aprendemos:
+- [ ] Tipo de dado: Number 
+- [ ] typeof 
+- [ ] Operador matemático 
+- [ ] Manipulação de dados 
+- [ ] type conversion (type casting) 
+- [ ] Number() (função construtora para converter um dado em número) 
+- [ ] String() (função construtora para converter um dado em uma string) 
+- [ ] Ordem de precedência dos operadores 
+- [ ] group operator
+
+### Class 03 - Operadores - Operações matemáticas
+Nessa aula aprendemos sobre os operadores matemáticos utilizando variáveis em JavaScript e como utilizá-los capturando e exibindo os dados.
+
+### Class 04 - Fluxos da aplicação - Calculando a média de um estudante
+Caminhos lógicos baseado em algum dado ou informação
+Boas práticas na programação
+Não repetir código
+
+- [ ] Tipo de dado: Boolean (true | false) 
+- [ ] if/else (elseif) 
+- [ ] Operadores comparativos
+
+<br />
+
+- '>'  (maior que)
+- '<'  (menor que)
+- '='  (maior ou igual a)
+- '<=' (menor ou igual a)
+- '==' (igual a)
+- '!=' (diferente de)
+
+### Class 05 - Estrutura de dados - Criando lista de compras
+Organização e gerenciamento dos dados
+Melhor eficiência do código
+
+<br />
+
+- Estruturas de repetição
+- [ ] laço de repetição
+- [ ] for 
+
+- Vetores (Arrays) 
+- [ ] Tipo de dado estruturado 
+- Incremental (++): o valor + 1 
+- Tipo de dado: undefined
+
+### Class 06 - Jogo da adivinhação
+
+
+- Como controlar o fluxo da aplicação 
+- Estrutura de repetição while 
+- [] while
+
+- Gerar número aleatório utilizando Math()
+
+- Tipo de dado: NaN 
+- [ ] não é um número 
+
+<br />
+- Math
+- [ ] Pacote com funcionalidades matemáticas
+- [ ] Math.random()
+- [ ] Math.round() 
+- [ ] Math.ceil() 
+- [ ] Math.floor() 
+
+
+- Tipo de erro: SyntaxError 
+- [ ] erro de sintaxe; erro de escrita de código
+
+- console 
+- [ ] Pacote com funcionalidades para o console do devtools (browser) 
+- [ ] template literals ou template strings interpolação de dados
