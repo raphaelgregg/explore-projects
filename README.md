@@ -197,5 +197,21 @@ Melhor eficiência do código
 - [ ] erro de sintaxe; erro de escrita de código
 
 - console 
-- [ ] Pacote com funcionalidades para o console do devtools (browser) 
-- [ ] template literals ou template strings interpolação de dados
+- [ ] Pacote com funcionalidades para o console do devtools (browser)
+
+- template literals ou template strings 
+- [ ] interpolação de dados
+
+### Class 07 - Interagindo com um menu de opções - parte 1
+Nessa aula aprenderemos sobre:
+
+Quais os dados de entrada que terei? (inputs)
+Quais as variáveis?
+Qual o caminho ideal? (fluxo ideal)
+Qual(is) o(s) caminho(s) alternativo(s)? (fluxo alternativo)
+Quais tratamentos de dados preciso fazer? (estrutura de dados, funções)
+Qual é a saída, ou quais os dados de saída, esperada? (outputs)
+Ferramentas da linguagem que abordaremos
+[] loop while [] arrays e funções de arrays [] condicional if/else [] template literals (strings)
+
+# Single Page Application (SPA)
