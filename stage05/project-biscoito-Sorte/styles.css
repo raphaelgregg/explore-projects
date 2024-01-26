@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --ff-title: 'Montserrat', sans-serif;
+  --ff-text: 'DM Sans', sans-serif;
+  --ff-response: 'Dancing Script', cursive;
+
+  --text-color: #34355B;
+  --shape-color: #E4EDF1;
+  --orange-color-500: #FF9500;
+  --white-color: #FFFFFF;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: linear-gradient(287.59deg, #190361, #BB00FF);
+}
+
+body * {
+  font-family: 'Courier New', Courier, monospace;
+}
