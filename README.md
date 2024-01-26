@@ -1,3 +1,12 @@
+# STAGE 1.
+## Project-1
+<img src="">
+
+
+
+
+## Project-2
+
 # Web
 
 Todo grid é composto de 2 principais grupos:
@@ -215,3 +224,19 @@ Ferramentas da linguagem que abordaremos
 [] loop while [] arrays e funções de arrays [] condicional if/else [] template literals (strings)
 
 # Single Page Application (SPA)
+
+# STAGE 5.
+
+* Docs
+* Project - Jogo de adivinhação
+* Project - IMC
+* Project - Timer
+
+## Jogo de adivinhação
+<img src="" alt="">
+
+## IMC
+<img src="" alt="">
+
+## Timer
+<img src="" alt="">
