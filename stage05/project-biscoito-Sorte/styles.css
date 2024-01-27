@@ -17,13 +17,74 @@
   --shape-color: #E4EDF1;
   --orange-color-500: #FF9500;
   --white-color: #FFFFFF;
+  --bg-color: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
 }
 
 body {
+  background: var(--bg-color) no-repeat;
+  height: 100vh;
+  
+  display: grid;
+  place-items: center;
   font-size: 1.6rem;
-  background-color: linear-gradient(287.59deg, #190361, #BB00FF);
 }
 
 body * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--ff-text);
+  color: var(--text-color);
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: var(--white-color);
+  box-shadow: 0 2rem 4rem 1rem rgba(0, 0, 0, 0.4);
+  width: min(42.8rem, 90%);
+
+  border-radius: .5rem;
+  padding: 4.8rem 6.4rem;
+  
+  margin-top: -8rem;
+  
+  text-align: center;
+}
+
+.screen1, .screen2 {
+  max-width: 29.4rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: var(--ff-title);
+}
+
+p {
+  margin-top: 1.5rem;
+}
+
+img {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.screen2 p {
+  font-size: 2.4rem;
+  font-family: 'Dancing Script', cursive;
+  padding: 1rem;
+  background-color: var(--shape-color);
+}
+
+.screen2 button {
+  border: none;
+  border-radius: .4rem;
+
+  background-color: var(--orange-color-500);
+  color: var(--white-color);
+  font-size: 1.5rem;
+
+  padding: 1.6rem;
+  margin-top: 2rem;
 }
