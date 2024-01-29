@@ -75,6 +75,7 @@ img {
   font-family: 'Dancing Script', cursive;
   padding: 1rem;
   background-color: var(--shape-color);
+  box-shadow: 0.2rem .2rem .4rem rgba(0, 0, 0, 0.4);
 }
 
 .screen2 button {
