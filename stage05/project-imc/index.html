@@ -22,17 +22,32 @@
         
         <div class="input-wrapper">
           <label for="weight">Peso (kg)</label>
-          <input type="text" id="weight">
+          <input 
+            type="number" 
+            id="weight"
+            required
+          >
         </div>
         
         <div class="input-wrapper">
           <label for="height">Altura (m)</label>
-          <input type="text" id="height">
+          <input 
+            type="number" 
+            id="height"
+            required
+          >
         </div>
         
         <button id="btn-form-imc">Calcular IMC <img src="./assets/arrow-up-right.svg" alt=" seta para direita"></button>
       </fieldset>
     </form>
   </main>
+
+  <!-- <div id="modal" class="hide">
+    <main>
+      <img src="./assets/close.svg" alt="x">
+      <h1>Seu IMC é de <span>28</span></h1>
+    </main>
+  </div> -->
 </body>
 </html>

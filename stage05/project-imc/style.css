@@ -9,10 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
 
-  --ff-title: "", sans-serif;
-
-  --shape-color: #040924;
-  --primary-color: #040924;
+  --ff-text: 'Roboto', sans-serif;
   
   --red-color-500: #F03E3E;
   
@@ -39,7 +36,11 @@ body {
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--ff-text);
+}
+
+.hide {
+  display: none;
 }
 
 main {
@@ -49,7 +50,7 @@ main {
   border-radius: .6rem;
   padding: 4.8rem 6.4rem 6.4rem;
 
-  margin-top: -8rem;
+  margin-top: -12rem;
 }
 
 .fieldset-wrapper {
@@ -102,4 +103,28 @@ main {
 
 .fieldset-wrapper button img {
   margin-left: .8rem;
+}
+
+#modal {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+#modal main {
+  position: relative;
+
+  width: 36.3rem;
+  margin-top: -8rem;
+}
+
+#modal main img {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
 }
