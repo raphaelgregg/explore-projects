@@ -1,11 +1,67 @@
-# STAGE 1.
-## Project-1
-<img src="">
+
+<h1 align="center">
+  🚀 Explore Course Projects
+</h1>
+
+<p align="center">
+  <a href="#evento">Evento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+
+<br>
+
+## Curso
+
+Curso Explore organizado pela @Rocketseat.
+
+Usando o poder do Html, CSS e o JavaScript.
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- <img src=".github/html.png" alt="HTML" height="18"> [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- <img src=".github/css.png" alt="CSS" height="18"> [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- <img src=".github/js.png" alt="JavaScript" height="18"> [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+
+## 💻 Projeto
+
+- Next Destination
+- Unique Environments
+- train-me
+- rocketsect
+- Cheesecake
+- Form
+- Mobile First
+- Galaxies
+- RocketBlog
+- Anamation
+- Guessing Game
+- Fortune Cookie
+- IMC
+- Timer
+- Github Favorites
+- 
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/community/file/1125601602315782027/rocket-links-maratona-explorer-2-0). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
 
 
+### STAGE 1.
+Inciando com HTML e CSS no primeiro modulo do curso.
+- Project Next Destination
+- Project Unique Environments
 
-## Project-2
+<p align="center">
+  <img alt="NextDestination" src=".github/Nnxt-destination.png" width="100%">
+</p>
+
 
 # Web
 
