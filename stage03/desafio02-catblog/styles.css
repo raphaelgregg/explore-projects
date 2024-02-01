@@ -132,6 +132,7 @@ section.article p {
 
 .card {
   display: flex;
+  margin-top: 3.2rem;
 }
 
 .card img {
