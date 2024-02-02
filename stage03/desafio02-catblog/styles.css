@@ -6,7 +6,8 @@
 
 :root {
   font-size: 62.5%;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
 
   /* FONTS */
   --ff-text: 'Mulish', sans-serif;
@@ -22,7 +23,9 @@
 
 body {
   font-size: 1.6rem;
-  background: var(--bg-color);
+  background: var(--bg-color);  
+  /* width: 100vw;
+  height: 100vh; */
 }
 
 body * {
@@ -31,10 +34,12 @@ body * {
 }
 
 .container {
-  width: 43rem;
+  width: 100%;
+  height: 100%;
+  min-width: 43rem;
   margin: 0 auto;
 
-  border: 1px solid red;
+  display: grid;
 }
 
 header {
@@ -84,16 +89,29 @@ header img {
   outline: 1px solid #c0c0c033;
 }
 
+main {
+  overflow-y: scroll;
+  margin-inline: auto;
+}
+
+main::-webkit-scrollbar {
+  width: 0;               /* width of the entire scrollbar */
+}
+
+/* SECTION ARTICLE */
+section.article button {
+  background: none;
+}
+
 section.article img {
   width: 100%;
   object-fit: cover;
+  border-radius: 0 0 4px 4px;
 }
 
 section.article .article-header {
   margin-top: 3.2rem;
   padding: 0 2.2rem;
-
-  border: 1px solid green;
 }
 
 .title {
@@ -125,30 +143,73 @@ section.article p {
   padding: 0 2.2rem;
 }
 
+/* SECTION RELATIONS */
+.article-relations {
+  margin-bottom: 4rem;
+}
 
 .article-relations h3 {
   font-size: 1.8rem;
 }
 
+.list-cards {
+  margin-top: 3.2rem;
+
+  display: grid;
+  gap: 3.2rem;
+}
+
 .card {
   display: flex;
-  margin-top: 3.2rem;
 }
 
 .card img {
   width: 15rem;
+  height: 8.4rem;
 }
 
 .card .info {
-  margin-left: 1.6rem; 
+  margin-left: 1.6rem;
 }
 
 .info p {
-  margin-top: 1.6rem;
+  margin-top: .4rem;
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 2.2rem;
 }
 
+footer {
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  background: var(--primary-color);
+  text-align: center;
+  color: var(--tt-input);
+  font-weight: 600;
 
+  padding: 2.6rem 1.6rem;
+}
 
+/* MEDIA */
+@media (min-width: 700px){
+  .content {
+    max-width: 80.4rem;
+  }
+
+  .article-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1222px){
+  .content {
+  display: grid;
+  grid-template-columns: 80.4rem 38.4rem;
+
+  max-width: 100%;
+  }
+}
