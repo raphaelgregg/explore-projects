@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.2%;
+
+  --bg: url(../assets/bg1.png);
+
+  --title-color: #E1E1E6;
+  --text-color: #E1E1E6;
+
+  --grey-color: #C4C4CC;
+  --white-color: #FFFFFF;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg) no-repeat center/cover;
+  border: 1px solid green;
+
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  color: var(--grey-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+ font-size: 4.8rem;  
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: var(--white-color);
+}
+
+#app{
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+  
+  padding: 4.2rem 7.2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+
+  transition: color .3s;
+}
+
+nav ul li a:hover {
+  color: var(--white-color);
+}
+
+nav ul li a::first-letter {
+  text-transform: capitalize;
+}
+
+main {
+  display: grid;
+  gap: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.2rem;
+
+  border: 1px solid red;
+}
+
+main h1 {
+  line-height: 6rem;
+}
+
+main button {
+  background: none;
+
+  padding: 1.2rem 3.2rem;
+}
+
+/* UNIVERSE, EXPLORATION */
+p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+
+  max-width: 64.8rem;
+
+  margin-top: 1.6rem;
+
+  visibility: hidden;
+}
