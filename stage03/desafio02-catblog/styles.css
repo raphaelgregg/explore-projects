@@ -136,6 +136,7 @@ section.article .article-header {
 section.article p {
   margin-top: 3.2rem;
   padding: 0 2.2rem;
+  line-height: 2.6rem;
 }
 
 .article-relations {
@@ -190,6 +191,7 @@ footer {
   font-weight: 600;
 
   padding: 2.6rem 1.6rem;
+  margin-top: 4rem;
 }
 
 /* MEDIA */
