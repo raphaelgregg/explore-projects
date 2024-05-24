@@ -13,29 +13,21 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  <script src="./js/main.js" defer></script>
+  <script src="./js/main.js" defer type="module"></script>
 </head>
 <body>
-  <div id="app">
-    <nav>
-      <div class="brand">
-        <img src="./assets/brand.svg" alt="icone em espiral">
-      </div>
+  <nav>
+    <div class="brand">
+      <img src="./assets/brand.svg" alt="icone em espiral">
+    </div>
 
-      <ul>
-        <li><a href="">home</a></li>
-        <li><a href="">o universo</a></li>
-        <li><a href="" class="active">exploração</a></li>
-      </ul>
-    </nav>
+    <ul>
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/universe">O Universo</a></li>
+      <li><a href="/explore">Exploração</a></li>
+    </ul>
+  </nav>
 
-    <main>
-      <h1>explore o universo</h1>
-      <button>quero saber mais</button>
-
-      <p>A palavra Universo deriva do latim universum. A palavra latina foi usada por Cícero e posteriormente por outros autores com o mesmo sentido que é empregada atualmente. A palavra latina é derivada da contração poética unvorsum — utilizada primeiramente por Lucrécio no Livro IV de seu “Sobre a Natureza das coisas” — que conecta un, uni (um) com vorsum, versum (que significa "algo rodado, rolado ou mudado").
-      </p>
-    </main>
-  </div>
+  <div id="app"></div>
 </body>
 </html>

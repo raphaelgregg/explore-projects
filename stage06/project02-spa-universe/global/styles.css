@@ -56,9 +56,6 @@ a {
   color: var(--white-color);
 }
 
-#app{
-}
-
 nav {
   display: flex;
   gap: 3.2rem;
@@ -89,35 +86,53 @@ nav ul li a::first-letter {
   text-transform: capitalize;
 }
 
-main {
-  display: grid;
-  gap: 2.4rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 2.2rem;
-
-  border: 1px solid red;
+#app {
+  display: flex;
 }
 
-main h1 {
+.home-container {
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+
+  align-items: center;
+  
+  padding: 0 2.2rem;
+
+  width: 100%;
+  margin-top: 172px;
+}
+
+.home-container h1 {
   line-height: 6rem;
 }
 
-main button {
+.home-container button {
   background: none;
-
   padding: 1.2rem 3.2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  width: 200px;
 }
 
 /* UNIVERSE, EXPLORATION */
-p {
-  font-size: 1.8rem;
-  line-height: 3rem;
+.universe-container,
+.explore-container {
+  margin: 63px 102px 0;
+}
+
+.universe-container p,
+.explore-container p {
+  font-size: 18px;
+  line-height: 160%;
 
   max-width: 64.8rem;
 
   margin-top: 1.6rem;
-
-  visibility: hidden;
 }
